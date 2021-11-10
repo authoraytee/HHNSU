@@ -1,8 +1,6 @@
-from bot import echo
-import telebot
-import config
+from config import bot
 
-bot = telebot.TeleBot(config.TOKEN)
+from modules.echo import echo
 
 if __name__ == '__main__':
     echo(bot)
