@@ -7,4 +7,3 @@ COPY . .
 RUN pip install pipenv
 RUN pipenv install --system --deploy --ignore-pipfile
 
-CMD ["python3", "app/main.py"]
